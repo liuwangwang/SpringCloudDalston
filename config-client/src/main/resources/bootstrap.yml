@@ -1,0 +1,23 @@
+## 对应配置文件规则中的{application}部分
+#spring.application.name=config-client
+#
+## 配置中心config-server的地址
+#spring.cloud.config.uri=http://localhost:8201/
+## 对应配置文件规则中的{profile}部分
+#spring.cloud.config.profile=default
+## 对应配置文件规则中的{label}部分
+#spring.cloud.config.label=master
+#
+#server.port=9201
+
+spring:
+  application:
+    name: config-client
+  cloud:
+    config:
+      uri: http://localhost:8201/
+      profile: dev
+      label: master
+
+server:
+  port: 9201
