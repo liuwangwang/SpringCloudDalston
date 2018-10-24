@@ -31,3 +31,7 @@ eureka:
   client:
     serviceUrl:
       defaultZone: http://localhost:8001/eureka/
+# 关闭验证
+management:
+  security:
+    enabled: false
