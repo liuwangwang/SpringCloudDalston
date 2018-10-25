@@ -19,6 +19,7 @@
         <module>config-client</module>
         <module>eureka-config-server-git</module>
         <module>eureka-config-client</module>
+        <module>eureka-consumer-ribbon-hystrix</module>
     </modules>
 
 </project>
