@@ -23,6 +23,8 @@
         <module>hystrix-dashboard</module>
         <module>turbine</module>
         <module>api-gateway</module>
+        <module>trace-1</module>
+        <module>trace-2</module>
     </modules>
 
 </project>
