@@ -40,6 +40,9 @@
         <module>zipkin-server</module>
         <module>zipkin-trace-1</module>
         <module>zipkin-trace-2</module>
+        <module>zipkin-rabbitmq-server</module>
+        <module>zipkin-rabbitmq-trace-1</module>
+        <module>zipkin-rabbitmq-trace-2</module>
     </modules>
 
     <dependencyManagement>
